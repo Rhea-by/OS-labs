@@ -25,3 +25,16 @@ Linux模块是一些可以作为独立程序来编译的函数和数据类型的
 
 4. 卸载内核模块
 `rmmod clock.o`
+
+### 参考链接
+
+http://edward-zhu.github.io/special/os_exp/2015/01/02/exp-2.3.html
+
+https://stackoverflow.com/questions/14818084/what-is-the-proper-include-for-the-function-sleep-in-c
+
+https://gitlab.freedesktop.org/lyudess/linux/commit/b42d1d6b5b789c41dacbe2bc192c7b359d109d7b
+
+https://stackoverflow.com/questions/8516021/proc-create-example-for-kernel-module
+
+https://github.com/linuxdeepin/deepin-anything/issues/10
+

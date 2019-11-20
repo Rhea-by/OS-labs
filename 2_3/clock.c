@@ -15,7 +15,6 @@ int clock_proc_show(struct seq_file * m, void * v) {
     // https://github.com/lwfinger/rtlwifi_new/issues/449
 
     struct timespec64 xtime;
-    // xtime = current_kernel_time64();
     	ktime_get_coarse_real_ts64(&xtime);
     //https://gitlab.freedesktop.org/lyudess/linux/commit/b42d1d6b5b789c41dacbe2bc192c7b359d109d7b
 	// 将系统时间写入proc文件中
